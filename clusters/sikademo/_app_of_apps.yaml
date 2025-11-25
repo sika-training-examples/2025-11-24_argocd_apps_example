@@ -19,3 +19,6 @@ spec:
   source:
     repoURL: https://github.com/sika-training-examples/2025-11-24_argocd_apps_example.git
     path: ./clusters/sikademo
+    directory:
+      recurse: true
+      exclude: '{**/manifests/**,**/Chart.yaml,**/values.y*ml,**/*.values.y*ml,**/templates/**}'
