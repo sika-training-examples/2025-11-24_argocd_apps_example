@@ -23,3 +23,4 @@ spec:
       valuesObject:
         frontendGoHost: counter2.k8s.sikademo.com
         FONT_COLOR: blue
+        BACKGROUND_COLOR: lightblue
